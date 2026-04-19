@@ -14,6 +14,7 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 
 <!-- Languages are identified by ISO 639-1 codes. See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes for reference. -->
 <!-- Personal note: languages where Chandra 2 leads by 20%+ points are particularly interesting for low-resource NLP research. -->
+<!-- Personal note: languages with a Gap of +30% or more (am, ka, km, kn, lo, ml, my) are worth investigating further - possibly training data differences. -->
 
 | Language | Chandra 2 | Gemini 2.5 Flash | Gap |
 |----------|:--------:|:----------------:|:---:|
@@ -83,28 +84,4 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 | pl | 91.5% | 91.1% | +0.4% |
 | ps | 12.6% | 13.3% | -0.7% |
 | pt | 95.2% | 89.4% | +5.8% |
-| ro | 84.5% | 76.7% | +7.8% |
-| ru | 85.5% | 82.8% | +2.7% |
-| sa | 51.1% | 44.6% | +6.5% |
-| sd | 50.0% | 29.3% | +20.7% |
-| si | 62.4% | 26.2% | +36.2% |
-| sk | 77.3% | 81.2% | -3.9% |
-| sl | 81.0% | 80.1% | +0.9% |
-| so | 82.4% | 69.9% | +12.5% |
-| sq | 75.3% | 77.1% | -1.8% |
-| sr | 90.3% | 89.7% | +0.6% |
-| su | 85.7% | 96.4% | -10.7% |
-| sv | 93.3% | 91.1% | +2.2% |
-| sw | 88.9% | 80.9% | +8.0% |
-| ta | 77.7% | 53.9% | +23.8% |
-| te | 58.6% | 33.3% | +25.3% |
-| th | 62.6% | 66.7% | -4.1% |
-| tr | 84.1% | 84.1% | 0.0% |
-| ug | 25.8% | 5.4% | +20.4% |
-| uk | 91.0% | 87.9% | +3.1% |
-| ur | 44.1% | 57.6% | -13.5% |
-| uz | 77.2% | 52.8% | +24.4% |
-| vi | 82.6% | 89.5% | -6.9% |
-| xh | 82.1% | 62.1% | +20.0% |
-| yi | 24.9% | 6.8% | +18.1% |
-| zh | 88.7% | 70.0% | +18.7% |
+| ro | 84.5% | 76.7% | +7.8%
