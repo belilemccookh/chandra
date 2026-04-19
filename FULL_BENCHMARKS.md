@@ -12,6 +12,8 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 
 > **Note:** Bold rows indicate languages where Gemini 2.5 Flash outperforms Chandra 2.
 
+<!-- Languages are identified by ISO 639-1 codes. See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes for reference. -->
+
 | Language | Chandra 2 | Gemini 2.5 Flash |
 |----------|:--------:|:----------------:|
 | af | 80.4% | 85.8% |
