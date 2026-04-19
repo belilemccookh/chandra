@@ -15,6 +15,7 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 <!-- Languages are identified by ISO 639-1 codes. See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes for reference. -->
 <!-- Personal note: languages where Chandra 2 leads by 20%+ points are particularly interesting for low-resource NLP research. -->
 <!-- Personal note: languages with a Gap of +30% or more (am, ka, km, kn, lo, ml, my) are worth investigating further - possibly training data differences. -->
+<!-- Personal note: lo, ml, my, km all have Gemini scoring under 20% - these might be near-random for Gemini, worth checking raw outputs. -->
 
 | Language | Chandra 2 | Gemini 2.5 Flash | Gap |
 |----------|:--------:|:----------------:|:---:|
@@ -80,8 +81,3 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 | nl | 88.6% | 87.5% | +1.1% |
 | no | 90.5% | 87.8% | +2.7% |
 | or | 31.1% | 11.2% | +19.9% |
-| pa | 48.3% | 22.4% | +25.9% |
-| pl | 91.5% | 91.1% | +0.4% |
-| ps | 12.6% | 13.3% | -0.7% |
-| pt | 95.2% | 89.4% | +5.8% |
-| ro | 84.5% | 76.7% | +7.8%
